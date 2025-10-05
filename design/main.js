@@ -44,7 +44,7 @@ reverseBtn.addEventListener("click", () => {
   
   audio.currentTime = Math.min(audio.duration, audio.currentTime + 5);
 });
-
+// fagshdubcbchcb
 
 audio.addEventListener("loadedmetadata", () => {
   totalTimeEl.textContent = formatTime(audio.duration);
